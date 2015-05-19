@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZKWatchDemo/Class/Controllers/Cleaner/CleanerViewController.m"
+            timestampString = "453709857.657814"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "-powerAction:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[CleanerViewController powerAction:]_block_invoke"
+                  moduleName = "ZKWatchDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaben/Desktop/JR/ZKWatchDemo/ZKWatchDemo/Class/Controllers/Cleaner/CleanerViewController.m"
+                  timestampString = "453709857.680459"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[CleanerViewController powerAction:]_block_invoke_2"
+                  moduleName = "ZKWatchDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaben/Desktop/JR/ZKWatchDemo/ZKWatchDemo/Class/Controllers/Cleaner/CleanerViewController.m"
+                  timestampString = "453709857.680744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "193"
+                  endingLineNumber = "193"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

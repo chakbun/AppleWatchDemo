@@ -1,0 +1,828 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0323681B09BBA700897A56 /* ZKCleanerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0323671B09BBA700897A56 /* ZKCleanerController.m */; };
+		DF6377571B0B03FD00DE6DFF /* CDZQRScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6377561B0B03FD00DE6DFF /* CDZQRScanningViewController.m */; };
+		DFA999D51B046B1000528ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA999D41B046B1000528ECA /* main.m */; };
+		DFA999D81B046B1000528ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA999D71B046B1000528ECA /* AppDelegate.m */; };
+		DFA999DB1B046B1000528ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA999DA1B046B1000528ECA /* ViewController.m */; };
+		DFA999DE1B046B1000528ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA999DC1B046B1000528ECA /* Main.storyboard */; };
+		DFA999E01B046B1000528ECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA999DF1B046B1000528ECA /* Images.xcassets */; };
+		DFA999E31B046B1000528ECA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA999E11B046B1000528ECA /* LaunchScreen.xib */; };
+		DFA99A031B046B3F00528ECA /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A021B046B3F00528ECA /* InterfaceController.m */; };
+		DFA99A061B046B3F00528ECA /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A051B046B3F00528ECA /* NotificationController.m */; };
+		DFA99A091B046B3F00528ECA /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A081B046B3F00528ECA /* GlanceController.m */; };
+		DFA99A0B1B046B3F00528ECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA99A0A1B046B3F00528ECA /* Images.xcassets */; };
+		DFA99A0F1B046B3F00528ECA /* ZKWatchDemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = DFA99A0E1B046B3F00528ECA /* ZKWatchDemo WatchKit App.app */; };
+		DFA99A171B046B3F00528ECA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFA99A151B046B3F00528ECA /* Interface.storyboard */; };
+		DFA99A191B046B3F00528ECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA99A181B046B3F00528ECA /* Images.xcassets */; };
+		DFA99A1C1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFA999FC1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFA99A451B046E1300528ECA /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A2C1B046E1300528ECA /* AFHTTPRequestOperation.m */; };
+		DFA99A461B046E1300528ECA /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A2E1B046E1300528ECA /* AFHTTPRequestOperationManager.m */; };
+		DFA99A471B046E1300528ECA /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A301B046E1300528ECA /* AFHTTPSessionManager.m */; };
+		DFA99A481B046E1300528ECA /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A331B046E1300528ECA /* AFNetworkReachabilityManager.m */; };
+		DFA99A491B046E1300528ECA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A351B046E1300528ECA /* AFSecurityPolicy.m */; };
+		DFA99A4A1B046E1300528ECA /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A371B046E1300528ECA /* AFURLConnectionOperation.m */; };
+		DFA99A4B1B046E1300528ECA /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A391B046E1300528ECA /* AFURLRequestSerialization.m */; };
+		DFA99A4C1B046E1300528ECA /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A3B1B046E1300528ECA /* AFURLResponseSerialization.m */; };
+		DFA99A4D1B046E1300528ECA /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A3D1B046E1300528ECA /* AFURLSessionManager.m */; };
+		DFA99A4E1B046E1300528ECA /* JRBluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A401B046E1300528ECA /* JRBluetoothManager.m */; };
+		DFA99A4F1B046E1300528ECA /* EHRemoteServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A431B046E1300528ECA /* EHRemoteServerManager.m */; };
+		DFA99A561B04714600528ECA /* BTConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A531B04714600528ECA /* BTConnector.m */; };
+		DFA99A5B1B0473DB00528ECA /* BoilerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A5A1B0473DB00528ECA /* BoilerController.m */; };
+		DFA99A5F1B04A8F600528ECA /* CleanerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA99A5E1B04A8F600528ECA /* CleanerViewController.m */; };
+		DFD51EFD1B060A7500460D7C /* ZKMainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD51EFC1B060A7500460D7C /* ZKMainInterfaceController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA99A101B046B3F00528ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA999C71B046B1000528ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA99A0D1B046B3F00528ECA;
+			remoteInfo = "ZKWatchDemo WatchKit App";
+		};
+		DFA99A1A1B046B3F00528ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA999C71B046B1000528ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA999FB1B046B3F00528ECA;
+			remoteInfo = "ZKWatchDemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFA99A231B046B3F00528ECA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFA99A1C1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF0323661B09BBA700897A56 /* ZKCleanerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCleanerController.h; sourceTree = "<group>"; };
+		DF0323671B09BBA700897A56 /* ZKCleanerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCleanerController.m; sourceTree = "<group>"; };
+		DF6377551B0B03FD00DE6DFF /* CDZQRScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDZQRScanningViewController.h; sourceTree = "<group>"; };
+		DF6377561B0B03FD00DE6DFF /* CDZQRScanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDZQRScanningViewController.m; sourceTree = "<group>"; };
+		DF9178341B08603B005983BE /* AppGloble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppGloble.h; path = ZKWatchDemo/AppGloble.h; sourceTree = SOURCE_ROOT; };
+		DFA999CF1B046B1000528ECA /* ZKWatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKWatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA999D31B046B1000528ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA999D41B046B1000528ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFA999D61B046B1000528ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFA999D71B046B1000528ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFA999D91B046B1000528ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFA999DA1B046B1000528ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFA999DD1B046B1000528ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFA999DF1B046B1000528ECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFA999E21B046B1000528ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFA999FC1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ZKWatchDemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA999FF1B046B3F00528ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA99A001B046B3F00528ECA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DFA99A011B046B3F00528ECA /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		DFA99A021B046B3F00528ECA /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		DFA99A041B046B3F00528ECA /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		DFA99A051B046B3F00528ECA /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		DFA99A071B046B3F00528ECA /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		DFA99A081B046B3F00528ECA /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		DFA99A0A1B046B3F00528ECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFA99A0E1B046B3F00528ECA /* ZKWatchDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZKWatchDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA99A141B046B3F00528ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFA99A161B046B3F00528ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DFA99A181B046B3F00528ECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFA99A241B046B7C00528ECA /* ZKWatchDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ZKWatchDemo.entitlements; sourceTree = "<group>"; };
+		DFA99A251B046B8800528ECA /* ZKWatchDemo WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ZKWatchDemo WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		DFA99A2B1B046E1300528ECA /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		DFA99A2C1B046E1300528ECA /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		DFA99A2D1B046E1300528ECA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		DFA99A2E1B046E1300528ECA /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		DFA99A2F1B046E1300528ECA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DFA99A301B046E1300528ECA /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		DFA99A311B046E1300528ECA /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		DFA99A321B046E1300528ECA /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DFA99A331B046E1300528ECA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DFA99A341B046E1300528ECA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		DFA99A351B046E1300528ECA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		DFA99A361B046E1300528ECA /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		DFA99A371B046E1300528ECA /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		DFA99A381B046E1300528ECA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		DFA99A391B046E1300528ECA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		DFA99A3A1B046E1300528ECA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DFA99A3B1B046E1300528ECA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		DFA99A3C1B046E1300528ECA /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		DFA99A3D1B046E1300528ECA /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		DFA99A3F1B046E1300528ECA /* JRBluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRBluetoothManager.h; sourceTree = "<group>"; };
+		DFA99A401B046E1300528ECA /* JRBluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRBluetoothManager.m; sourceTree = "<group>"; };
+		DFA99A421B046E1300528ECA /* EHRemoteServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHRemoteServerManager.h; sourceTree = "<group>"; };
+		DFA99A431B046E1300528ECA /* EHRemoteServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHRemoteServerManager.m; sourceTree = "<group>"; };
+		DFA99A521B04714600528ECA /* BTConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTConnector.h; sourceTree = "<group>"; };
+		DFA99A531B04714600528ECA /* BTConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTConnector.m; sourceTree = "<group>"; };
+		DFA99A591B0473DB00528ECA /* BoilerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoilerController.h; sourceTree = "<group>"; };
+		DFA99A5A1B0473DB00528ECA /* BoilerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoilerController.m; sourceTree = "<group>"; };
+		DFA99A5D1B04A8F600528ECA /* CleanerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CleanerViewController.h; sourceTree = "<group>"; };
+		DFA99A5E1B04A8F600528ECA /* CleanerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CleanerViewController.m; sourceTree = "<group>"; };
+		DFD51EFB1B060A7500460D7C /* ZKMainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainInterfaceController.h; sourceTree = "<group>"; };
+		DFD51EFC1B060A7500460D7C /* ZKMainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainInterfaceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA999CC1B046B1000528ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA999F91B046B3F00528ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6377541B0B03FD00DE6DFF /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				DF6377551B0B03FD00DE6DFF /* CDZQRScanningViewController.h */,
+				DF6377561B0B03FD00DE6DFF /* CDZQRScanningViewController.m */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		DFA999C61B046B1000528ECA = {
+			isa = PBXGroup;
+			children = (
+				DFA999D11B046B1000528ECA /* ZKWatchDemo */,
+				DFA999FD1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension */,
+				DFA99A121B046B3F00528ECA /* ZKWatchDemo WatchKit App */,
+				DFA999D01B046B1000528ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA999D01B046B1000528ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA999CF1B046B1000528ECA /* ZKWatchDemo.app */,
+				DFA999FC1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension.appex */,
+				DFA99A0E1B046B3F00528ECA /* ZKWatchDemo WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA999D11B046B1000528ECA /* ZKWatchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A261B046E1300528ECA /* Class */,
+				DFA99A241B046B7C00528ECA /* ZKWatchDemo.entitlements */,
+				DFA999D61B046B1000528ECA /* AppDelegate.h */,
+				DFA999D71B046B1000528ECA /* AppDelegate.m */,
+				DF9178341B08603B005983BE /* AppGloble.h */,
+				DFA999D91B046B1000528ECA /* ViewController.h */,
+				DFA999DA1B046B1000528ECA /* ViewController.m */,
+				DFA999DC1B046B1000528ECA /* Main.storyboard */,
+				DFA999DF1B046B1000528ECA /* Images.xcassets */,
+				DFA999E11B046B1000528ECA /* LaunchScreen.xib */,
+				DFA999D21B046B1000528ECA /* Supporting Files */,
+			);
+			path = ZKWatchDemo;
+			sourceTree = "<group>";
+		};
+		DFA999D21B046B1000528ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFA999D31B046B1000528ECA /* Info.plist */,
+				DFA999D41B046B1000528ECA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA999FD1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFD51EF91B060A5800460D7C /* Class */,
+				DFA99A251B046B8800528ECA /* ZKWatchDemo WatchKit Extension.entitlements */,
+				DFA99A011B046B3F00528ECA /* InterfaceController.h */,
+				DFA99A021B046B3F00528ECA /* InterfaceController.m */,
+				DFA99A041B046B3F00528ECA /* NotificationController.h */,
+				DFA99A051B046B3F00528ECA /* NotificationController.m */,
+				DFA99A071B046B3F00528ECA /* GlanceController.h */,
+				DFA99A081B046B3F00528ECA /* GlanceController.m */,
+				DFA99A0A1B046B3F00528ECA /* Images.xcassets */,
+				DFA999FE1B046B3F00528ECA /* Supporting Files */,
+			);
+			path = "ZKWatchDemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DFA999FE1B046B3F00528ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFA999FF1B046B3F00528ECA /* Info.plist */,
+				DFA99A001B046B3F00528ECA /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA99A121B046B3F00528ECA /* ZKWatchDemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A151B046B3F00528ECA /* Interface.storyboard */,
+				DFA99A181B046B3F00528ECA /* Images.xcassets */,
+				DFA99A131B046B3F00528ECA /* Supporting Files */,
+			);
+			path = "ZKWatchDemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		DFA99A131B046B3F00528ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A141B046B3F00528ECA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA99A261B046E1300528ECA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A271B046E1300528ECA /* Controllers */,
+				DFA99A281B046E1300528ECA /* Data */,
+				DFA99A291B046E1300528ECA /* Lib */,
+				DFA99A411B046E1300528ECA /* NetWork */,
+				DFA99A441B046E1300528ECA /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DFA99A271B046E1300528ECA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A5C1B04A8E300528ECA /* Cleaner */,
+				DFA99A581B0473AB00528ECA /* Boiler */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DFA99A281B046E1300528ECA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DFA99A291B046E1300528ECA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DF6377541B0B03FD00DE6DFF /* QR */,
+				DFA99A511B04714600528ECA /* YiLaite */,
+				DFA99A2A1B046E1300528ECA /* AFNetworking */,
+				DFA99A3E1B046E1300528ECA /* BLE */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DFA99A2A1B046E1300528ECA /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A2B1B046E1300528ECA /* AFHTTPRequestOperation.h */,
+				DFA99A2C1B046E1300528ECA /* AFHTTPRequestOperation.m */,
+				DFA99A2D1B046E1300528ECA /* AFHTTPRequestOperationManager.h */,
+				DFA99A2E1B046E1300528ECA /* AFHTTPRequestOperationManager.m */,
+				DFA99A2F1B046E1300528ECA /* AFHTTPSessionManager.h */,
+				DFA99A301B046E1300528ECA /* AFHTTPSessionManager.m */,
+				DFA99A311B046E1300528ECA /* AFNetworking.h */,
+				DFA99A321B046E1300528ECA /* AFNetworkReachabilityManager.h */,
+				DFA99A331B046E1300528ECA /* AFNetworkReachabilityManager.m */,
+				DFA99A341B046E1300528ECA /* AFSecurityPolicy.h */,
+				DFA99A351B046E1300528ECA /* AFSecurityPolicy.m */,
+				DFA99A361B046E1300528ECA /* AFURLConnectionOperation.h */,
+				DFA99A371B046E1300528ECA /* AFURLConnectionOperation.m */,
+				DFA99A381B046E1300528ECA /* AFURLRequestSerialization.h */,
+				DFA99A391B046E1300528ECA /* AFURLRequestSerialization.m */,
+				DFA99A3A1B046E1300528ECA /* AFURLResponseSerialization.h */,
+				DFA99A3B1B046E1300528ECA /* AFURLResponseSerialization.m */,
+				DFA99A3C1B046E1300528ECA /* AFURLSessionManager.h */,
+				DFA99A3D1B046E1300528ECA /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		DFA99A3E1B046E1300528ECA /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A3F1B046E1300528ECA /* JRBluetoothManager.h */,
+				DFA99A401B046E1300528ECA /* JRBluetoothManager.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		DFA99A411B046E1300528ECA /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A421B046E1300528ECA /* EHRemoteServerManager.h */,
+				DFA99A431B046E1300528ECA /* EHRemoteServerManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		DFA99A441B046E1300528ECA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFA99A511B04714600528ECA /* YiLaite */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A521B04714600528ECA /* BTConnector.h */,
+				DFA99A531B04714600528ECA /* BTConnector.m */,
+			);
+			path = YiLaite;
+			sourceTree = "<group>";
+		};
+		DFA99A581B0473AB00528ECA /* Boiler */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A591B0473DB00528ECA /* BoilerController.h */,
+				DFA99A5A1B0473DB00528ECA /* BoilerController.m */,
+			);
+			path = Boiler;
+			sourceTree = "<group>";
+		};
+		DFA99A5C1B04A8E300528ECA /* Cleaner */ = {
+			isa = PBXGroup;
+			children = (
+				DFA99A5D1B04A8F600528ECA /* CleanerViewController.h */,
+				DFA99A5E1B04A8F600528ECA /* CleanerViewController.m */,
+			);
+			path = Cleaner;
+			sourceTree = "<group>";
+		};
+		DFD51EF91B060A5800460D7C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DFD51EFA1B060A5800460D7C /* ZKCleaner */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DFD51EFA1B060A5800460D7C /* ZKCleaner */ = {
+			isa = PBXGroup;
+			children = (
+				DF0323661B09BBA700897A56 /* ZKCleanerController.h */,
+				DF0323671B09BBA700897A56 /* ZKCleanerController.m */,
+				DFD51EFB1B060A7500460D7C /* ZKMainInterfaceController.h */,
+				DFD51EFC1B060A7500460D7C /* ZKMainInterfaceController.m */,
+			);
+			path = ZKCleaner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA999CE1B046B1000528ECA /* ZKWatchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA999F21B046B1000528ECA /* Build configuration list for PBXNativeTarget "ZKWatchDemo" */;
+			buildPhases = (
+				DFA999CB1B046B1000528ECA /* Sources */,
+				DFA999CC1B046B1000528ECA /* Frameworks */,
+				DFA999CD1B046B1000528ECA /* Resources */,
+				DFA99A231B046B3F00528ECA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA99A1B1B046B3F00528ECA /* PBXTargetDependency */,
+			);
+			name = ZKWatchDemo;
+			productName = ZKWatchDemo;
+			productReference = DFA999CF1B046B1000528ECA /* ZKWatchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFA999FB1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA99A201B046B3F00528ECA /* Build configuration list for PBXNativeTarget "ZKWatchDemo WatchKit Extension" */;
+			buildPhases = (
+				DFA999F81B046B3F00528ECA /* Sources */,
+				DFA999F91B046B3F00528ECA /* Frameworks */,
+				DFA999FA1B046B3F00528ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA99A111B046B3F00528ECA /* PBXTargetDependency */,
+			);
+			name = "ZKWatchDemo WatchKit Extension";
+			productName = "ZKWatchDemo WatchKit Extension";
+			productReference = DFA999FC1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DFA99A0D1B046B3F00528ECA /* ZKWatchDemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA99A1D1B046B3F00528ECA /* Build configuration list for PBXNativeTarget "ZKWatchDemo WatchKit App" */;
+			buildPhases = (
+				DFA99A0C1B046B3F00528ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZKWatchDemo WatchKit App";
+			productName = "ZKWatchDemo WatchKit App";
+			productReference = DFA99A0E1B046B3F00528ECA /* ZKWatchDemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA999C71B046B1000528ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xpg;
+				TargetAttributes = {
+					DFA999CE1B046B1000528ECA = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4F4JWNAD79;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFA999FB1B046B3F00528ECA = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4F4JWNAD79;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DFA99A0D1B046B3F00528ECA = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4F4JWNAD79;
+					};
+				};
+			};
+			buildConfigurationList = DFA999CA1B046B1000528ECA /* Build configuration list for PBXProject "ZKWatchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA999C61B046B1000528ECA;
+			productRefGroup = DFA999D01B046B1000528ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA999CE1B046B1000528ECA /* ZKWatchDemo */,
+				DFA999FB1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension */,
+				DFA99A0D1B046B3F00528ECA /* ZKWatchDemo WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA999CD1B046B1000528ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA999DE1B046B1000528ECA /* Main.storyboard in Resources */,
+				DFA999E31B046B1000528ECA /* LaunchScreen.xib in Resources */,
+				DFA999E01B046B1000528ECA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA999FA1B046B3F00528ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA99A0F1B046B3F00528ECA /* ZKWatchDemo WatchKit App.app in Resources */,
+				DFA99A0B1B046B3F00528ECA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA99A0C1B046B3F00528ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA99A171B046B3F00528ECA /* Interface.storyboard in Resources */,
+				DFA99A191B046B3F00528ECA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA999CB1B046B1000528ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA99A451B046E1300528ECA /* AFHTTPRequestOperation.m in Sources */,
+				DFA999DB1B046B1000528ECA /* ViewController.m in Sources */,
+				DFA99A461B046E1300528ECA /* AFHTTPRequestOperationManager.m in Sources */,
+				DFA99A481B046E1300528ECA /* AFNetworkReachabilityManager.m in Sources */,
+				DFA99A4C1B046E1300528ECA /* AFURLResponseSerialization.m in Sources */,
+				DFA99A4A1B046E1300528ECA /* AFURLConnectionOperation.m in Sources */,
+				DFA99A491B046E1300528ECA /* AFSecurityPolicy.m in Sources */,
+				DFA99A471B046E1300528ECA /* AFHTTPSessionManager.m in Sources */,
+				DF6377571B0B03FD00DE6DFF /* CDZQRScanningViewController.m in Sources */,
+				DFA99A4B1B046E1300528ECA /* AFURLRequestSerialization.m in Sources */,
+				DFA99A4D1B046E1300528ECA /* AFURLSessionManager.m in Sources */,
+				DFA99A561B04714600528ECA /* BTConnector.m in Sources */,
+				DFA999D81B046B1000528ECA /* AppDelegate.m in Sources */,
+				DFA99A4F1B046E1300528ECA /* EHRemoteServerManager.m in Sources */,
+				DFA99A5F1B04A8F600528ECA /* CleanerViewController.m in Sources */,
+				DFA999D51B046B1000528ECA /* main.m in Sources */,
+				DFA99A5B1B0473DB00528ECA /* BoilerController.m in Sources */,
+				DFA99A4E1B046E1300528ECA /* JRBluetoothManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA999F81B046B3F00528ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0323681B09BBA700897A56 /* ZKCleanerController.m in Sources */,
+				DFA99A061B046B3F00528ECA /* NotificationController.m in Sources */,
+				DFD51EFD1B060A7500460D7C /* ZKMainInterfaceController.m in Sources */,
+				DFA99A031B046B3F00528ECA /* InterfaceController.m in Sources */,
+				DFA99A091B046B3F00528ECA /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA99A111B046B3F00528ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA99A0D1B046B3F00528ECA /* ZKWatchDemo WatchKit App */;
+			targetProxy = DFA99A101B046B3F00528ECA /* PBXContainerItemProxy */;
+		};
+		DFA99A1B1B046B3F00528ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA999FB1B046B3F00528ECA /* ZKWatchDemo WatchKit Extension */;
+			targetProxy = DFA99A1A1B046B3F00528ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFA999DC1B046B1000528ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA999DD1B046B1000528ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFA999E11B046B1000528ECA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA999E21B046B1000528ECA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DFA99A151B046B3F00528ECA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFA99A161B046B3F00528ECA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFA999F01B046B1000528ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFA999F11B046B1000528ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA999F31B046B1000528ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZKWatchDemo/ZKWatchDemo.entitlements;
+				INFOPLIST_FILE = ZKWatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc5739b8-32ae-487e-84f6-9b5f98d9981b";
+			};
+			name = Debug;
+		};
+		DFA999F41B046B1000528ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZKWatchDemo/ZKWatchDemo.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xtreme Programming Group, Inc.";
+				INFOPLIST_FILE = ZKWatchDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc5739b8-32ae-487e-84f6-9b5f98d9981b";
+			};
+			name = Release;
+		};
+		DFA99A1E1B046B3F00528ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ZKWatchDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "ZKWatchDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7cb63052-c920-43de-81fa-4cac76462e75";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DFA99A1F1B046B3F00528ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Xtreme Programming Group, Inc.";
+				IBSC_MODULE = ZKWatchDemo_WatchKit_Extension;
+				INFOPLIST_FILE = "ZKWatchDemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7cb63052-c920-43de-81fa-4cac76462e75";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		DFA99A211B046B3F00528ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ZKWatchDemo WatchKit Extension/ZKWatchDemo WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZKWatchDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "4b326228-96af-49c5-83ed-1cfbdee3d2ed";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFA99A221B046B3F00528ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ZKWatchDemo WatchKit Extension/ZKWatchDemo WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Xtreme Programming Group, Inc.";
+				INFOPLIST_FILE = "ZKWatchDemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "4b326228-96af-49c5-83ed-1cfbdee3d2ed";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA999CA1B046B1000528ECA /* Build configuration list for PBXProject "ZKWatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA999F01B046B1000528ECA /* Debug */,
+				DFA999F11B046B1000528ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA999F21B046B1000528ECA /* Build configuration list for PBXNativeTarget "ZKWatchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA999F31B046B1000528ECA /* Debug */,
+				DFA999F41B046B1000528ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA99A1D1B046B3F00528ECA /* Build configuration list for PBXNativeTarget "ZKWatchDemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA99A1E1B046B3F00528ECA /* Debug */,
+				DFA99A1F1B046B3F00528ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA99A201B046B3F00528ECA /* Build configuration list for PBXNativeTarget "ZKWatchDemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA99A211B046B3F00528ECA /* Debug */,
+				DFA99A221B046B3F00528ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA999C71B046B1000528ECA /* Project object */;
+}

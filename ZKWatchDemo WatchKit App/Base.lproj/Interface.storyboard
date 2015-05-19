@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14C1510" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="132" height="47" alignment="left" text="中科WatchDemo" textAlignment="center" id="iEH-3Y-5Lk"/>
+                        <button width="1" alignment="left" hidden="YES" title="Ble Demo" id="DDk-2c-MkH">
+                            <color key="backgroundColor" red="0.17526565359999999" green="0.34792099679999999" blue="0.91180294750000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="6hn-Z1-xbO" kind="push" id="YPW-Fq-lAA"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" hidden="YES" title="中科demo" id="w8h-gC-vEt">
+                            <connections>
+                                <segue destination="Nh0-SC-UxF" kind="push" id="Flf-jr-Fmo"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="空气净化器" id="xMB-zQ-iR4">
+                            <color key="backgroundColor" red="0.17526565359999999" green="0.34792099679999999" blue="0.91180294750000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="YFO-CR-ECN" kind="push" id="AcR-gd-K5j"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="i79-X0-bum">
+            <objects>
+                <controller id="6hn-Z1-xbO">
+                    <items>
+                        <button width="1" alignment="left" title="power" id="TMD-KR-pKb">
+                            <color key="backgroundColor" red="0.25584684149999998" green="0.4956066354" blue="0.91180294750000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                        <button width="1" alignment="left" title="brightness" id="FZD-9U-878">
+                            <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                        <button width="1" alignment="left" title="heating" id="SCt-d9-TzS">
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                        <button width="1" alignment="left" title="temp" id="zWv-1k-biY">
+                            <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </button>
+                        <button width="1" alignment="left" title="fireColor" id="frJ-Py-X3S">
+                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="471" y="347"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="uCw-4Q-Ouw"/>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="17" y="778"/>
+        </scene>
+        <!--Cleaner Controller-->
+        <scene sceneID="R3f-xo-jVz">
+            <objects>
+                <controller id="YFO-CR-ECN" customClass="ZKCleanerController">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="7XQ-IC-Ny3">
+                            <items>
+                                <label width="136" alignment="left" text="温度：24℃" id="jCA-Kb-owy"/>
+                                <label width="134" alignment="left" text="湿度：61%" textAlignment="left" id="qac-NR-JFh"/>
+                                <label alignment="left" text="室外PM2.5: 0" id="tbl-oo-wdb"/>
+                            </items>
+                        </group>
+                        <label width="136" alignment="left" text="室内" textAlignment="center" id="uY1-FJ-bLy"/>
+                        <label width="136" height="42" alignment="left" text="4" textAlignment="center" id="Est-xi-Qhw">
+                            <color key="textColor" red="0.12566436080000001" green="0.59347369500000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="29"/>
+                        </label>
+                        <label width="136" alignment="left" text="优秀" textAlignment="center" id="Lqc-oC-jvg">
+                            <color key="textColor" red="0.12566436080000001" green="0.59347369500000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <button width="1" alignment="left" title="电源" id="q26-vG-keb">
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="powerButtonAction" destination="YFO-CR-ECN" id="Em3-9a-fj3"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="负离子" id="H1h-Dv-60W">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="anionButtonAction" destination="YFO-CR-ECN" id="3ev-YB-DM4"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="风速" id="eXK-vH-EJH"/>
+                        <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="RbB-q2-kcH">
+                            <connections>
+                                <action selector="valueChangeAction:" destination="YFO-CR-ECN" id="6Yk-MJ-bf7"/>
+                            </connections>
+                        </slider>
+                    </items>
+                    <menu key="menu" id="oXc-TY-m2Z">
+                        <items>
+                            <menuItem title="1小时" icon="accept" id="dkA-Ou-W6B">
+                                <connections>
+                                    <action selector="h1MenuAction" destination="YFO-CR-ECN" id="KTJ-nP-dyJ"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="4小时" icon="accept" id="Bp8-Vu-K5s">
+                                <connections>
+                                    <action selector="h4MenuAction" destination="YFO-CR-ECN" id="gD8-Z2-6CN"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="8小时" icon="accept" id="nQ9-He-ZmD">
+                                <connections>
+                                    <action selector="h8MenuAction" destination="YFO-CR-ECN" id="2Cx-yA-j06"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="关闭" icon="block" id="nuC-Lt-Rxj">
+                                <connections>
+                                    <action selector="timerOffMenuAction" destination="YFO-CR-ECN" id="TLV-vV-Dw0"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="anionButton" destination="H1h-Dv-60W" id="wve-3c-x75"/>
+                        <outlet property="humiLabel" destination="qac-NR-JFh" id="zm4-ZS-Y2s"/>
+                        <outlet property="pm25IndoorLabel" destination="Est-xi-Qhw" id="QEf-q3-Qg6"/>
+                        <outlet property="pm25IndoorLevelLabel" destination="Lqc-oC-jvg" id="vWP-Vv-QSX"/>
+                        <outlet property="pm25OutdoorLabel" destination="tbl-oo-wdb" id="WDq-ok-oR1"/>
+                        <outlet property="powerButton" destination="q26-vG-keb" id="qxh-Ty-JBW"/>
+                        <outlet property="speedSlider" destination="RbB-q2-kcH" id="Vpt-tj-iKD"/>
+                        <outlet property="tempLabel" destination="jCA-Kb-owy" id="R2t-e6-tPl"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="235" y="770.5"/>
+        </scene>
+        <!--Main Interface Controller-->
+        <scene sceneID="RZV-w7-GM3">
+            <objects>
+                <controller id="Nh0-SC-UxF" customClass="ZKMainInterfaceController">
+                    <items>
+                        <button width="1" alignment="left" title="PowerOn" id="iae-Oj-18i">
+                            <connections>
+                                <action selector="PowerButtonAction" destination="Nh0-SC-UxF" id="I7g-ub-F9r"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="PowerOff" id="UE4-oe-bbE">
+                            <connections>
+                                <action selector="PowerOffAction" destination="Nh0-SC-UxF" id="mbz-im-ACB"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="LightNormal" id="lDB-5G-Pn0">
+                            <connections>
+                                <action selector="lightNormalAction" destination="Nh0-SC-UxF" id="wn5-6b-9uq"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="LightDim" id="sF8-rw-rKM">
+                            <connections>
+                                <action selector="lightDimAction" destination="Nh0-SC-UxF" id="Gjg-UV-sAE"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="LightOff" id="dPq-x7-je6">
+                            <connections>
+                                <action selector="lightOffAction" destination="Nh0-SC-UxF" id="TAu-Oq-IAQ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="SpeedAuto" id="Kuc-Ze-0YN">
+                            <connections>
+                                <action selector="speedAutoAction" destination="Nh0-SC-UxF" id="lWg-CP-KaG"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="SpeedSilent" id="C3m-ZF-bIf">
+                            <connections>
+                                <action selector="speedSilentAction" destination="Nh0-SC-UxF" id="pRy-E4-t7e"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="SpeedL1" id="i2e-iy-sc4">
+                            <connections>
+                                <action selector="speedL1Action" destination="Nh0-SC-UxF" id="j10-d6-Q7e"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="SpeedL2" id="H3Y-rM-CnO">
+                            <connections>
+                                <action selector="speedL2Action" destination="Nh0-SC-UxF" id="Ctk-9T-UAs"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="SpeedL3" id="Ffw-8S-khV">
+                            <connections>
+                                <action selector="speedL3Action" destination="Nh0-SC-UxF" id="vbR-Bg-yRk"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Timer1" id="2pq-aK-CvL">
+                            <connections>
+                                <action selector="timer1Action" destination="Nh0-SC-UxF" id="Izf-VC-GiG"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Timer4" id="L9u-Fi-vFU">
+                            <connections>
+                                <action selector="timer4Action" destination="Nh0-SC-UxF" id="oJm-gJ-n8d"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Timer8" id="CGO-kv-vpK">
+                            <connections>
+                                <action selector="timer8Action" destination="Nh0-SC-UxF" id="mSK-xq-PWq"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="TimerOff" id="aAl-yG-zwS">
+                            <connections>
+                                <action selector="timerOffAction" destination="Nh0-SC-UxF" id="6J2-4F-McS"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="AnionOn" id="HRe-Ih-lLG">
+                            <connections>
+                                <action selector="anionOnAction" destination="Nh0-SC-UxF" id="Uf1-dh-z8h"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="AnionOff" id="2EJ-s8-2nw">
+                            <connections>
+                                <action selector="anionOffAction" destination="Nh0-SC-UxF" id="gQF-p1-RM4"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="476" y="926.5"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="-26" y="1194"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="263" y="1202"/>
+        </scene>
+    </scenes>
+</document>
